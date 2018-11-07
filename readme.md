@@ -8,7 +8,7 @@ docker run -d --name my-running-app my-php-app
 ```
 
 ## How to Configure
-To change the panle name and logo
+To change the panle name and logo change this in the config.json
 ```json
     "panelinfo":[
         {
