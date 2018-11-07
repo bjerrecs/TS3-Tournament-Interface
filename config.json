@@ -23,6 +23,14 @@
                 {
                     "name": "ignite",
                     "channel": "channelName"
+                },
+                {
+                    "name": "ambush",
+                    "channel": "channelName"
+                },
+                {
+                    "name": "JMC",
+                    "channel": "channelName"
                 }
             ]
         }
