@@ -8,4 +8,12 @@ docker run -d --name my-running-app my-php-app
 ```
 
 ## How to Configure
-
+To change the panle name and logo
+```json
+    "panelinfo":[
+        {
+            "pagename":"Leagueops - Match Manager",
+            "pagetheme":"dark",
+            "pagelogo":"leagueops.png"
+        }
+```
