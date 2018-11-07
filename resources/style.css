@@ -32,4 +32,6 @@ body {
 }.matchPause {
     border: 3px solid;
     border-color: #ff9800;
+}.matchText{
+    font-size: 2em;
 }
