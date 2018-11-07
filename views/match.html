@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="resources/style.css">
+    <title>{{ match.teams[0].name }} vs {{ match.teams[1].name }}</title>
+</head>
+<body>
+    <div class="row" align="center" style="padding-top:10vh">
+        <div class="col">
+            <div class="container box matchPause">
+                <div class="row">
+                    <div class="col">
+                        <img src="resources/img/{{match.teams[0].name}}.png" class="holdbillede">
+                        <button class="btn btn-success">TACTICAL</button>
+                        <button class="btn btn-danger">TACTICAL</button>
+                    </div>
+                    <div class="col">
+                        <h3 class="teamtext">{{ match.teams[0].name }} vs {{ match.teams[1].name }}</h3>
+                        <button class="btn btn-success">TECH</button>
+                        <button class="btn btn-danger">TECH</button>
+                    </div>
+                    <div class="col">
+                        <img src="resources/img/{{match.teams[1].name}}.png" class="holdbillede">
+                        <button class="btn btn-success">TACTICAL</button>
+                        <button class="btn btn-danger">TACTICAL</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

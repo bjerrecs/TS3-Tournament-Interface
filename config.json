@@ -1,0 +1,30 @@
+{
+    "panelinfo":[
+        {
+            "pagename":"Leagueops - Match Manager",
+            "pagetheme":"dark",
+            "pagelogo":"leagueops.png"
+        }
+    ],
+    "servers": [
+        {
+            "id": 1,
+            "connectionString": "serverquery://someuser:something@192.168.1.1:10011/?server_port=9987"
+        }
+    ],
+    "matches": [
+        {
+            "server": 1,
+            "teams": [
+                {
+                    "name": "tricked",
+                    "channel": "channelName"
+                },
+                {
+                    "name": "ignite",
+                    "channel": "channelName"
+                }
+            ]
+        }
+    ]
+}

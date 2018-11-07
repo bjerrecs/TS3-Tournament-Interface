@@ -1,0 +1,16 @@
+{
+    "name": "kdkaergaard/ts3-tournament-interface",
+    "description": "A minimalistic management interface for Teamspeak3 servers at tournaments.",
+    "type": "project",
+    "license": "Beerware",
+    "authors": [
+        {
+            "name": "Kristian Dahl Kaergaard",
+            "email": "hcand.dk@gmail.com"
+        }
+    ],
+    "require": {
+        "planetteamspeak/ts3-php-framework": "^1.1",
+        "twig/twig": "^2.5"
+    }
+}
