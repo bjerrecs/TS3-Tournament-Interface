@@ -8,11 +8,16 @@ body {
     height: 100%;
     position: absolute;
 }
+/**/
+.teamtext{
+    font-size: 6vh;
+    text-transform: uppercase;
+}
 
 /*Here we set the size of the team logos*/
 .holdbillede {
-    padding: 0.5em 0 0 0;
-    max-width: 6em;
+    padding: 1em;
+    max-width: 15em;
 }
 .teamPictureFrontpage {
     padding: 0.5em 0 0 0;
