@@ -1,4 +1,5 @@
-# TS3-Tournament-Interface
+# Tournament Management Interface
+This project is designed for esport tournament admins and other staff that need to manages team comms during an event.
 
 ## How to Build and Run
 
@@ -8,25 +9,26 @@ php -S localhost:8080
 ```
 
 ## How to Configure
-To change the panle name and logo change this in the config.json
-```json
-"pagename":"Leagueops - Match Manager",
-"pagetheme":"dark",
-"pagelogo":"leagueops.png"
+All the configuration that needs to be done before the events is to change the connect link in config.json
+```cfg
+serverquery://someuser:something@192.168.1.1:10011/?server_port=9987
 ```
-The above settings should describe them self
-
-To add a more then one Teamspeak server,
-Just add a new one like this:
+And add all the teams in this array format:
 ```json
-"servers": [
+    "matches": [
         {
-            "id": 1,
-            "connectionString": "serverquery://someuser:something@192.168.1.1:10011/?server_port=9987"
-        },
-        {
-            "id": 2,
-            "connectionString": "serverquery://someuser:something@192.168.1.1:10011/?server_port=9987"
+            "server": 1,
+            "teams": [
+                {
+                    "name": "tricked",
+                    "channel": "channelName"
+                },
+                {
+                    "name": "ignite",
+                    "channel": "channelName"
+                }
+            ]
         }
     ]
 ```
+The "server" tag is used if you have more than one teamspeak 3 server capped @ 32 users.
