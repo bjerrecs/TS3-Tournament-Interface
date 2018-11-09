@@ -3,8 +3,8 @@
 ## How to Build and Run
 
 ```sh
-docker build -t my-php-app .
-docker run -d --name my-running-app my-php-app
+composer install
+php -S localhost:8080
 ```
 
 ## How to Configure

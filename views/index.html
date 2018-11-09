@@ -12,6 +12,7 @@
     <title>{% for adm in info %} {{ adm.pagename }} {% endfor %}v.0.1</title>
 </head>
 <body>
+    <h1>{{ panelinfo.pagename }}</h1>
     <div class="container" align="center">
             {% for adm in info %}
             <img src="resources/{{ adm.pagelogo }}" class="panelLogo">
@@ -22,9 +23,9 @@
                 <table class="matchbox">
                     {% for match in matches %}
                     <tr>
-                        <td><img src="resources/img/{{match.teams[0].name}}.png" class="holdbillede"></td>
+                        <td><img src="resources/img/{{match.teams[0].name}}.png" class="teamPictureFrontpage"></td>
                         <td><a href="/match.php?id={{loop.index0}}" class="matchText">{{ match.teams[0].name }} vs {{ match.teams[1].name }}</a></td>
-                        <td><img src="resources/img/{{match.teams[1].name}}.png" class="holdbillede"></td>
+                        <td><img src="resources/img/{{match.teams[1].name}}.png" class="teamPictureFrontpage"></td>
                     </tr>
                     {% endfor %}
                 </table>
