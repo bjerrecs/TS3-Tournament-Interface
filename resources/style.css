@@ -8,23 +8,32 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
+}
+
+/*Match CSS */
+.holdbillede {
+    padding: 1em;
+    max-width: 15em;
+}.teamtext {
+    text-transform: uppercase;
+}
+
+/* Frontpage css*/
+.teamPictureFrontpage { 
+    padding: 1em;
+    max-width: 8em;
+}.matchbox {
+    background: #1e2227;
+    border-radius: 1em;
 }.panelName {
     font-size: 5vh;
     padding: -1em 0 2em 0;
 }.panelLogo{
     max-width: 20vw;
-}.teamtext {
+}.matchText {
+    font-size: 6vh;
     text-transform: uppercase;
-}
-
-/*Here we set the size of the team logos*/
-.holdbillede {
-    padding: 1em;
-    max-width: 15em;
-}
-.teamPictureFrontpage {
-    padding: 0.5em 0 0 0;
-    max-width: 10em;
+    text-align: center;
 }
 
 /*Here we align the teams and center information*/
@@ -44,9 +53,4 @@ body {
     position: absolute;
     right: 10%;
     top:20%;
-}
-
-/*Here we set the size of the team logos*/
-.matchText {
-    font-size: 6vh
 }
