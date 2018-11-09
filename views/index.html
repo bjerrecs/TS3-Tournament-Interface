@@ -9,10 +9,14 @@
     <script src="resources/popper.min.js"></script>
     <script src="resources/bootstrap.min.js"></script>
     <link rel="stylesheet" href="resources/style.css">
-    <title>{{ panelinfo.pagename }} v.0.1</title>
+    <title>{% for adm in info %} {{ adm.pagename }} {% endfor %}v.0.1</title>
 </head>
 <body>
     <div class="container" align="center">
+            {% for adm in info %}
+            <img src="resources/{{ adm.pagelogo }}" class="panelLogo">
+            <h1 class="panelName"> {{ adm.pagename }} </h1> 
+            {% endfor %}
         <div class="row">
             <div class="col">
                 <table class="matchbox">
