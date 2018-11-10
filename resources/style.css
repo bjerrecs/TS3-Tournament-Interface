@@ -2,14 +2,16 @@
 /*Remove styleing*/
 body {
     font-family: 'Montserrat', sans-serif;
-    background: #242a31;
+    background: #363F48;
     color: #fff;
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
 }
-
+a {
+    color: #1F87E4;
+}
 /*Match CSS */
 .holdbillede {
     padding: 1em;
@@ -21,17 +23,18 @@ body {
 /* Frontpage css*/
 .teamPictureFrontpage { 
     padding: 1em;
-    max-width: 8em;
+    max-width: 7em;
 }.matchbox {
-    background: #1e2227;
-    border-radius: 1em;
+    background: #272B33;
+    border-bottom: 2px solid #1F87E4;
 }.panelName {
     font-size: 5vh;
     padding: -1em 0 2em 0;
 }.panelLogo{
     max-width: 20vw;
+    margin: -2em;
 }.matchText {
-    font-size: 6vh;
+    font-size: 4vh;
     text-transform: uppercase;
     text-align: center;
 }
