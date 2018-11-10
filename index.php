@@ -6,6 +6,7 @@ echo $twig->render(
     'index.html', 
     array(
         'matches' => $config["matches"],
-        'info' => $config["panelinfo"]
+        'info' => $config["panelinfo"],
+        'teams' => $config["matchea"]["team"]
     )
 );

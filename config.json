@@ -14,23 +14,26 @@
     ],
     "matches": [
         {
-            "server": 1,
             "teams": [
                 {
                     "name": "tricked",
-                    "channel": "channelName"
+                    "channel": "channelName",
+                    "server": "1"
                 },
                 {
                     "name": "ignite",
-                    "channel": "channelName"
+                    "channel": "channelName",
+                    "server": "1"
                 },
                 {
                     "name": "ambush",
-                    "channel": "channelName"
+                    "channel": "channelName",
+                    "server": "1"
                 },
                 {
                     "name": "JMC",
-                    "channel": "channelName"
+                    "channel": "channelName",
+                    "server": "1"
                 }
             ]
         }
