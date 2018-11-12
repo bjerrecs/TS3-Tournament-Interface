@@ -1,14 +1,6 @@
 ![League Ops Logo](resources/rsz_leagueops.png)
 # Tournament Management Interface
 This project is designed for esport tournament admins and other staff that need to manages team comms during an event.
-
-## How to Build and Run
-
-```sh
-composer install
-php -S localhost:8080
-```
-
 ## How to Configure
 All the configuration that needs to be done before the events is to change the connect link in config.json
 ```cfg
